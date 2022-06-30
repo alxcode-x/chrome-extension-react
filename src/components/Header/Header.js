@@ -5,9 +5,10 @@ const Header = () => {
     
     const headerText = {
         width: "100%",
-        border: "2px solid black",
+        border: "1px solid black",
         background: "#00b3e3",
-        color: "white"
+        color: "white",
+        boxSizing: "border-box"
     };
     return(
         <div >
