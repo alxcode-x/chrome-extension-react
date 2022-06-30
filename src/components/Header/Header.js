@@ -3,15 +3,20 @@ import React from "react";
 
 const Header = () => {
     
-    const headerText = {
-        width: "100%",
-        border: "1px solid black",
+    const headerWrapper = {
+        display: "flex",
         background: "#00b3e3",
+        width: "100%",
+        boxSizing: "border-box",
+        justifyContent: "center",
+        alignContent: "center"
+    }
+
+    const headerText = {
         color: "white",
-        boxSizing: "border-box"
     };
     return(
-        <div >
+        <div style={headerWrapper}>
             <div style={headerText}>Ava Smart Asistant</div>
         </div>
     )
