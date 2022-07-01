@@ -12,9 +12,17 @@ function FloatingWindow() {
     //     color: "black"
     // };
 
+    const windowWrapper = {
+        width: "50%",
+        height: "250px",
+        border: "1px solid black",
+        boxSizing: "border-box",
+        backgroundColor: "#fff"
+    }
+
     return (
-        <Draggable>
-            <div>
+        <Draggable defaultPosition={{x:(window.innerWidth/2) - ((window.innerWidth/2)/4), y:(-window.innerHeight/2)- 120}}>
+            <div style={windowWrapper}>
                 <div  className="box">Draggable window!</div>
             </div>
         </Draggable>

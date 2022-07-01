@@ -15,6 +15,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 function injectWindow(){
   const app = document.createElement('div');
   app.id = "extension-root";
+  app.style.height = "0px";
   document.body.appendChild(app);
 
   ReactDOM.render(<FloatingWindow />, app);
