@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import FloatingWindow from "./components/window/FloatingWindow";
+import FloatingWindow from "/src/components/window/FloatingWindow";
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === 'openWindow') {
-    console.log("Window opened");
     injectWindow();
   }
 
