@@ -1,0 +1,14 @@
+.iconsRowWrapper{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 8px;
+}
+
+.iconItem{
+    width: 35px;
+    height: 35px;
+}
+
+.iconItem:hover{
+    transform: scale(1.05);
+}

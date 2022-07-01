@@ -1,0 +1,15 @@
+.textInputWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.memberSearchText{
+    font-size: 16px;
+    margin-right: 16px;
+}
+
+.memberSearchInput{
+    border-color: #ccc;
+    width: 70%;
+}

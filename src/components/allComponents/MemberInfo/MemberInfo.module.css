@@ -1,0 +1,25 @@
+.memberInfoWrapper{
+    display: flex;
+    border: solid 1px black;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.memberInfoAvatar{
+    width: 80px;
+    height: 80px;
+    border: solid 1px black;
+    padding: 2px;
+    border-radius: 50%;
+}
+
+.memberInfoText{
+    border: solid 1px black;
+    margin-left: 5px;
+    text-align: justify;
+    padding: 3px
+}

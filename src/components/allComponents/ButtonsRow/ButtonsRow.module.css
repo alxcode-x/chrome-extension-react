@@ -1,0 +1,18 @@
+.buttonsWrapper{
+    display: flex;
+}
+
+.buttonDemo{
+    width: 25%;
+    height: 32px;
+    border-radius: 7px 7px 0px 0px;
+    background-color: #03659A;
+    border: solid 1px white;
+    color: white
+}
+
+.buttonDemo:hover{
+    cursor: pointer;
+    transform: scale(1.01);
+    background-color: #007bbd
+}

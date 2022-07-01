@@ -1,0 +1,16 @@
+.tableStyle {
+    border: solid 1px #e0e0e0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableHead{
+    color: black;
+    background-color: #eefbff;
+    border: solid 1px #e0e0e0;
+}
+
+.tableBody{
+    border: solid 1px #e0e0e0;
+
+}

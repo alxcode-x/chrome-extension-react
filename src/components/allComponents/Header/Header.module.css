@@ -1,0 +1,21 @@
+.popupHeader{
+    
+    color: #fff;
+    
+}
+
+.headerWraper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #00b3e3;
+    height: 10%;
+    width: 100%;
+}
+
+.imageMarker{
+    width: 4%;
+    height: auto;
+    margin-right: 4px;
+}
