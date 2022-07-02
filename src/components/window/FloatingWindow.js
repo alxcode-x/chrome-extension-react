@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Draggable from "react-draggable";
 import './FloatingWindow.css';
 import Header from "../Header/Header";
+import GeneralApp from "../GeneralApp/GeneralApp";
 
 function FloatingWindow() {
     console.log("Hello from Window");
@@ -25,6 +26,7 @@ function FloatingWindow() {
         <Draggable defaultPosition={{x:(window.innerWidth/2) - ((window.innerWidth/2)/4), y:(-window.innerHeight/2)- 120}}>
             <div style={windowWrapper}>
                 <Header/>
+                <GeneralApp/>
             </div>
         </Draggable>
     );
