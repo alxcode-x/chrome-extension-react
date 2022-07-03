@@ -15,6 +15,7 @@ function injectWindow(){
   const app = document.createElement('div');
   app.id = "extension-root";
   app.style.height = "0px";
+  app.style.position = "fixed";
   document.body.appendChild(app);
 
   ReactDOM.render(<FloatingWindow />, app);
