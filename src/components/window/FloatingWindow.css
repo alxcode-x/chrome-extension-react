@@ -1,7 +1,15 @@
 .windowWrapper {
-    width: 50%;
-    height: 250px;
-    border: 1px solid black;
+    width: 385px;
+    height: 500px;
+    display: inline-block;
+    /* flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between; */
+    border: 3px solid black;
     box-sizing: border-box;
     background: #fff;
 }
+
+/* ensalada de col
+papa al horno
+tacos dorados */
