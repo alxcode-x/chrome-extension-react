@@ -8,7 +8,7 @@ function FloatingWindow() {
 
     return (
         <Draggable defaultPosition={{x:(window.innerWidth/2) - ((window.innerWidth/2)/4), y:(-window.innerHeight/2)- 120}}>
-            <div style={windowWrapper}>
+            <div className={"windowWrapper"}>
                 <Header/>
                 <GeneralApp/>
             </div>
