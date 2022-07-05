@@ -1,8 +1,12 @@
 import React from "react";
 
- 
- function Meds() {
-   
- }
 
- export default Meds;
+function Meds() {
+    return (
+        <div>
+            table here
+        </div>
+    )
+}
+
+export default Meds;

@@ -2,6 +2,7 @@ import React from "react";
 import MemberSearch from "../MemberSearch/MemberSearch";
 import MemberInfo from "../MemberInfo/MemberInfo";
 import Menu from "../window/menu/Menu";
+import Grid from "../window/grid/Grid";
 
 const GeneralApp = () => {
     const generalWrapper = {
@@ -13,6 +14,7 @@ const GeneralApp = () => {
             <MemberSearch/>
             <MemberInfo/>
             <Menu/>
+            <Grid/>
         </div>
     )
 

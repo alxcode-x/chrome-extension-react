@@ -3,6 +3,7 @@ import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import './Grid.css';
+import Meds from "./meds/Meds";
 
 function Grid() {
     return(
@@ -16,7 +17,7 @@ function Grid() {
                 </TabList>
 
                 <TabPanel>
-                    <h2>Any content 1</h2>
+                    <Meds/>
                 </TabPanel>
                 <TabPanel>
                     <h2>Any content 2</h2>
