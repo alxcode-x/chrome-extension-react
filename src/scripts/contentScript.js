@@ -12,11 +12,18 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 });
 
 function injectWindow(){
-  const app = document.createElement('div');
-  app.id = "extension-root";
-  app.style.height = "0px";
-  app.style.position = "fixed";
-  document.body.appendChild(app);
+  const check = document.getElementById("extension-root");
+  console.log(check);
+  if (check === null){
+    const app = document.createElement('div');
+    app.id = "extension-root";
+    app.style.height = "0px";
+    app.style.position = "fixed";
+    document.body.appendChild(app);
 
-  ReactDOM.render(<FloatingWindow />, app);
+    ReactDOM.render(<FloatingWindow />, app);
+  }else{
+    check.style.display = "block";
+  }
+  
 }
