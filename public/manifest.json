@@ -28,5 +28,10 @@
         "storage",
         "tabs",
         "activeTab"
-    ]
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["img/avatar.png"],
+        "matches": ["<all_urls>"]
+      }]
 }

@@ -26,10 +26,11 @@ const MemberInfo = () => {
         marginLeft: "5px",
         textAlign: "justify",
         padding: "3px"
-    }
+    };
+    const Avatar = chrome.runtime.getURL('img/avatar.png');
     return(
         <div style = {memberInfoWrapper}>
-            <img style={memberInfoAvatar} src={".."} alt="demoAvatar"></img>
+            <img style={memberInfoAvatar} src={Avatar} alt="demoAvatar"></img>
             <div style={memberInfoText}>Lorep ipsum text.Lorep ipsum text.Lorep ipsum text.Lorep ipsum text.Lorep ipsum text.Lorep ipsum text.Lorep ipsum text.Lorep ipsum text.Lorep ipsum text.</div>
         </div>
     )
