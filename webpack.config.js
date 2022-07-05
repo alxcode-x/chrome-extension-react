@@ -39,6 +39,9 @@ module.exports = {
         patterns: [
           { from: "public/manifest.json" },
           { from: "public/icons" },
+          {from: './src/assets',
+           to: 'img',
+           force: true,},
         ],
     }),
   ],
