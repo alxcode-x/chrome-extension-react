@@ -1,6 +1,7 @@
-.box {
-    width: 120px;
-    border: 2px solid black;
-    background: #D6E1E9;
-    color: black
+.windowWrapper {
+    width: 50%;
+    height: 250px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background: #fff;
 }
