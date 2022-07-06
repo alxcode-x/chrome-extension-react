@@ -1,8 +1,8 @@
 import React from "react";
 import Draggable from "react-draggable";
 import './FloatingWindow.css';
-import Header from "../Header/Header";
-import GeneralApp from "../GeneralApp/GeneralApp";
+import Header from "./header/Header";
+import GeneralApp from "./generalApp/GeneralApp";
 
 
 function FloatingWindow() {

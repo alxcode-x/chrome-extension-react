@@ -1,8 +1,8 @@
 import React from "react";
-import MemberSearch from "../MemberSearch/MemberSearch";
-import MemberInfo from "../MemberInfo/MemberInfo";
-import Menu from "../window/menu/Menu";
-import Grid from "../window/grid/Grid";
+import MemberSearch from "../memberSearch/MemberSearch";
+import MemberInfo from "../memberInfo/MemberInfo";
+import Menu from "../menu/Menu";
+import Grid from "../grid/Grid";
 
 const GeneralApp = () => {
     const generalWrapper = {
